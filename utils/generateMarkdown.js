@@ -29,7 +29,7 @@ ${data.description}
 * [Tests](#tests)
 * [Questions](#questions)
 
-## Installation
+## Install
 ${data.install}
 
 ## Usage
