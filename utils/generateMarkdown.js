@@ -3,7 +3,7 @@ function licenseBadge(data) {
   const license = data.license[0];
   let licenseUrl = ""
   if (license) {
-    licenseUrl = `![Github license](http://img.shields.io/badge/license-${data.license}-green.svg)`;
+    licenseUrl = `![Github license](https://img.shields.io/badge/license-${data.license}-green.svg)`;
   }
   return licenseUrl
 };
@@ -14,7 +14,7 @@ function licenseBadge(data) {
 function generateMarkdown(data) {
   return `# ${data.title}
   
-  ![Github license](http://img.shields.io/badge/license-${data.license}-green.svg)
+  ![Github license](https://img.shields.io/badge/license-${data.license}-green.svg)
 
 ## Description
 ${data.description}
